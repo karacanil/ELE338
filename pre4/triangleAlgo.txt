@@ -1,0 +1,37 @@
+Height=3
+  x
+ x x
+xxxxx
+
+Height=5
+    x
+   x x
+  x   x
+ x     x
+xxxxxxxxx
+
+Height=7
+      x
+     x x       -> n=1
+    x   x      -> n=2
+   x     x     -> n=3
+  x       x    -> n=4
+ x         x   -> n=5 
+xxxxxxxxxxxxx
+
+First row: Height-1 spaces
+Last row: Height+Height-1 X's
+Middle rows:
+-> Height-1-n spaces
+-> Print one X
+-> 2n-1 spaces
+-> Print one X
+-> Print new line
+
+Invalid inputs: 0, 1
+
+
+   X
+  X X
+ X   X
+XXXXXXX
